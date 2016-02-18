@@ -15,7 +15,7 @@
     >   It's a command to find a pattern in a file or a group of files. Its output is the line(s) where the pattern is present.
 
 2.  What is a *makefile*?
-    >   answer
+    >   It's a program building tool that helps to automatically build and manage a program executables.
 
 4.  What does the ``-prune`` option of ``find`` do? Give an example
     >   It excludes directories from the searching when we're looking for a file.
