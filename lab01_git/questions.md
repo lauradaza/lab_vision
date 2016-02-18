@@ -5,20 +5,20 @@
 
 2.  What is the output of the ``cal`` command?
 
-        multi
-        line
-        answer
+        A calendar. There are 6 different options to change the format of the calendar displayed. The options change 
+        things like the first day of the week (monday or sunday), shows only a month, 3 months or the whole year or it
+        can display dates in Julian calendar
 
 # Homework Questions
 
 1.  What is the ``grep``command?
-    >   answer
+    >   It's a command to find a pattern in a file or a group of files. Its output is the line(s) where the pattern is present.
 
 2.  What is a *makefile*?
     >   answer
 
 4.  What does the ``-prune`` option of ``find`` do? Give an example
-    >   answer
+    >   It excludes directories from the searching when we're looking for a file.
 
 5.  Where is the ``grub.cfg``  file
     >   answer
@@ -30,10 +30,10 @@
     >   answer
 
 8.  What does the ``cut`` command do?
-    >   answer
+    >   Removes an item from a place and saves it temporarily while we place it somewhere else.
 
 9.  What does the ``wget`` command do?
-    >   answer
+    >   Download files from the internet.
 
 9.  What does the ``rsync`` command do?
     >   answer
