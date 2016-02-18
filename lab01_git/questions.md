@@ -8,6 +8,13 @@
         A calendar. There are 6 different options to change the format of the calendar displayed. The options change 
         things like the first day of the week (monday or sunday), shows only a month, 3 months or the whole year or it
         can display dates in Julian calendar
+        Febrero 2016
+do lu ma mi ju vi sá
+1 2 3 4 5 6
+7 8 9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29
 
 # Homework Questions
 
@@ -24,10 +31,10 @@
     >    /boot/grub/grub.cfg
 
 6.  How many files with ``gnu`` in its name are in ``/usr/src``
-    >   answer
+    >   When we type find /usr/src/ -name *gnu there are no files
 
 7.  How many files contain the word ``gpl`` inside in ``/usr/src``
-    >   answer
+    >   By typing grep -H -R "gpl" /usr/src/ | wc -l we obtain 586 files in total
 
 8.  What does the ``cut`` command do?
     >   Removes an item from a place and saves it temporarily while we place it somewhere else.
@@ -51,21 +58,21 @@
     >   Creates a hard link between 2 files. Changing one of the files will affect the other. 
 
 11.  How many users exist in the course server?
-    >   answer
+    >   There are 5 users
 
 12. What command will produce a table of Users and Shells sorted by shell (tip: using ``cut`` and ``sort``)
-    >   answer
+    >   % cat /etc/passwd | sort (it first find the users and the sort them)
 
 13. What command will produce the number of users with shell ``/sbin/nologin`` (tip: using ``grep`` and ``wc``)
-    >   answer
+    >   % cat /etc/passwd | grep '/sbin/nologin'|wc -l
 
 15. Create a script for finding duplicate images based on their content (tip: hash or checksum)
     You may look in the internet for ideas, but please indicate the source of any code you use
     Save this script as ``find_duplicates.sh`` in this directory and commit your changes to github
 
 16. What is the meaning of ``#! /bin/bash`` at the start of scripts?
-    >   answer
+    >   Bash is a program that interpret orders. The line #! /bin/bash defines that the program will be interpret using it.
 
 17. How many unique images are in the ``sipi_images`` database?
-    >   answer
+    >   There are no "sipi_images" database
     
