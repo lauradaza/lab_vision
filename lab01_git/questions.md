@@ -1,7 +1,7 @@
 # Warmup Questions
 
 1.  What is the clone url of this repository?
-    >   answer
+    >   https://github.com/lauradaza/lab_vision.git
 
 2.  What is the output of the ``cal`` command?
 
@@ -21,7 +21,7 @@
     >   It excludes directories from the searching when we're looking for a file.
 
 5.  Where is the ``grub.cfg``  file
-    >   answer
+    >    /boot/grub/grub.cfg
 
 6.  How many files with ``gnu`` in its name are in ``/usr/src``
     >   answer
@@ -36,19 +36,19 @@
     >   Download files from the internet.
 
 9.  What does the ``rsync`` command do?
-    >   answer
+    >   Sinchronizes and copy files or directories that have changed remotely or localy. It's very fast because it just copies the part that have changed.
 
 10.  What does the ``diff`` command do?
-    >   answer
+    >   Compares 2 files and look for the differences between them. It prints the lines that are not equal in both files.
 
 10.  What does the ``tail`` command do?
-    >   answer
+    >   Prints the last part of a file. By default it prints the last 10 lines of the file.
 
 10.  What does the ``tail -f`` command do?
-    >   answer
+    >   It keeps the file open and when the file grows it prints the new lines appended to it.
 
 10.  What does the ``link`` command do?
-    >   answer
+    >   Creates a hard link between 2 files. Changing one of the files will affect the other. 
 
 11.  How many users exist in the course server?
     >   answer
