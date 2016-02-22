@@ -1,6 +1,11 @@
 First image: Sergio.jpg
-It's a picture of one of my friends sitting in the park.
+It's a picture of one of my friends sitting in the park. It's
+size is 1280x959 pixels. The procesed version of the picture 
+is a cropped image containing his face and part of his torso
+with a size of 720x620 ppixels
 
 Second image: Ragnar.jpg
 This one is a picture of mi puppy, a siberian husky, pulling
-the blankets of my bed.
+the blankets of my bed. It's size is 1280x719 pixels. The 
+procesed version of the picture is a cropped image containing
+his head and part of the blanket with a size of 720x620 ppixels
