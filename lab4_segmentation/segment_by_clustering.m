@@ -69,6 +69,7 @@ end
 
 image(seg_im)
 colormap(colorcube(num_clusters))
+pause; close all;
 end
 
 function [matriz] = llenarMatriz(f_space,im)
